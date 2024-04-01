@@ -12,8 +12,8 @@
 <body class="bg-sky-50">
     <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 ">
         <div class="absolute top-2 left-3">
-            <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar"
-                type="button"
+            <button id="sb-btn" data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar"
+                aria-controls="logo-sidebar" type="button"
                 class="p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400  dark:focus:ring-gray-600">
                 <span class="sr-only">Open sidebar</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
@@ -34,7 +34,7 @@
     </nav>
 
     <aside id="logo-sidebar"
-        class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 "
+        class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full  bg-white border-r border-gray-200 sm:translate-x-0 "
         aria-label="Sidebar">
         <div class="h-full px-3 pb-4 overflow-y-auto bg-white ">
             <div class="border-b border-gray-500 pb-3">
@@ -48,16 +48,16 @@
                 </div>
             </div>
 
-            <ul class="space-y-2 font-medium mt-2">
+            <ul class="space-y-2 font-medium mt-5">
                 <li>
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-sky-50  group">
+                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-sky-100  group">
                         <img width="30" height="30"
                             src="https://img.icons8.com/ios-filled/50/attendance-mark.png" alt="attendance-mark" />
                         <span class="ms-3">Kehadiran</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-sky-50  group">
+                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-sky-100  group">
                         <img width="30" height="30"
                             src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-attendance-human-resources-flaticons-lineal-color-flat-icons-2.png"
                             alt="external-attendance-human-resources-flaticons-lineal-color-flat-icons-2" />
@@ -80,5 +80,6 @@
         @yield('content')
     </div>
 </body>
+<script src="{{ asset('js/script.js') }}"></script>
 
 </html>
