@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/tes', function () {
-    return view('partials.sidebar');
+    return view('partials.sidebar-admin');
 });
