@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('/tes', function () {
     return view('partials.sidebar-admin');
 });
+Route::get('/keh', function () {
+    return view('admin.kehadiran');
+});
