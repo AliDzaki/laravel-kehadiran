@@ -10,11 +10,11 @@
     @vite('resources/css/app.css', 'resources/js/app.js')
 </head>
 
-<body class="">
+<body>
     <div class="flex justify-center bg-sky-50 relative h-screen">
         <div
             class="border border-sky-200 inline-block py-10 px-8 m-[80px] bg-white  shadow-lg rounded-md 
-         h-[390px] backdrop-blur-lg  " >
+         h-[390px] backdrop-blur-lg">
             <div class="mb-4">
                 <h1 class="font-bold text-center text-4xl text-slate-800 font-sans mb-2">Login</h1>
                 <p class="text-base text-center font-sans text-slate-500">Silahkan isi Username & password mu!!</p>

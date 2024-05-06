@@ -9,6 +9,9 @@ Route::get('/', function () {
 Route::get('/tes', function () {
     return view('partials.sidebar-admin');
 });
-Route::get('/keh', function () {
-    return view('admin.kehadiran');
+Route::get('/user', function () {
+    return view('admin.siswa');
+});
+Route::get('tambah', function () {
+    return view('forms.tambah-user');
 });

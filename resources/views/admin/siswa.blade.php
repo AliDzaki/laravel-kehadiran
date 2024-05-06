@@ -17,12 +17,12 @@
 @section('content')
     <div class="mt-8">
         <div class="mb-2">
-            <h2 class="text-center font-bold text-2xl ">Daftar hadir</h2>
+            <h2 class="text-center font-bold text-2xl ">Data Siswa</h2>
 
         </div>
 
         <div>
-            <a class="w-[50px] bg-sky-300 py-2 px-5 rounded-lg border border-sky-700 text-sky-50 shadow-lg hover:shadow-xl hover:opacity-75 hover:border-sky-950" href="">Tambah data</a>       
+            <a class="w-[50px] bg-sky-300 py-2 px-5 rounded-lg border border-sky-950 text-sky-50 shadow-lg" href="">Tambah data</a>       
         </div>
 
         <div class="mb-2 ">         
@@ -40,13 +40,16 @@
                             Nama
                         </th>
                         <th scope="col" class="px-6 py-2">
-                            Tanggal
+                            Nisn
                         </th>
                         <th scope="col" class="px-6 py-2">
-                            Kehadiran
+                            tanggal lahir
                         </th>
                         <th scope="col" class="px-6 py-2">
-                            Action
+                            Jenis kelamin
+                        </th>
+                        <th scope="col" class="px-6 py-2">
+                            aksi
                         </th>
                     </tr>
                 </thead>
@@ -57,12 +60,16 @@
                             Fikri Dzaki Ali
                         </th>
                         <td class="px-6 py-3">
-                            19-Maret-2024
+                            0889899
                         </td>
                         <td class="px-6 py-3 ">
-                            Sakit
+                            2007-08-19
+                        </td>
+                        <td class="px-6 py-3 ">
+                            Laki laki
                         </td>
                         <td class="  py-3 whitespace-nowrap">
+
                             <a href="#" >
                                 <span class="font-medium text-gray-300 bg-blue-600 rounded-lg  hover:underline px-4 py-2">Edit</span>
                             </a>
