@@ -10,7 +10,7 @@ Route::get('/tes', function () {
     return view('partials.sidebar-admin');
 });
 Route::get('/user', function () {
-    return view('admin.siswa');
+    return view('user.kehadiran');
 });
 Route::get('tambah', function () {
     return view('forms.tambah-user');

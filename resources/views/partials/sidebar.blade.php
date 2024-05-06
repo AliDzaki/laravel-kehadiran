@@ -37,16 +37,7 @@
         class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full  bg-white border-r border-gray-200 sm:translate-x-0 "
         aria-label="Sidebar">
         <div class="h-full px-3 pb-4 overflow-y-auto bg-white ">
-            <div class="border-b border-gray-500 pb-3">
-                <div class="flex items-center justify-center  mb-2">
-                    <img class="w-14 h-14 rounded-full"
-                        src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="user photo">
-                </div>
-                <div class="px-2 py-2">
-                    <h2 class="text-xl font-bold text-gray-700 text-center">Fikri Dzaki Ali</h2>
-                    <h2 class="text-sm font-medium text-gray-700 text-center">XI PPLG A</h2>
-                </div>
-            </div>
+            @yield('profile')
 
             <ul class="space-y-2 font-medium mt-5">
                 <li>
